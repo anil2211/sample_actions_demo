@@ -1,0 +1,23 @@
+{
+  "name": "sample-github-actions-pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anil2211/sample_actions_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anil2211/sample_actions_demo/issues"
+  },
+  "homepage": "https://github.com/anil2211/sample_actions_demo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

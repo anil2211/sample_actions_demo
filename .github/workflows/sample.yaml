@@ -16,6 +16,14 @@
         steps:
           - name: Print Hello World
             run: echo "hello world"
+          
           - name: print current directory
             run: pwd
-    
+   
+          - name: "setup node js"
+            uses: actions/setup-node@v4
+            with:
+                node-version: "20"
+         
+          - name: "checkout version"
+            run: node --version
