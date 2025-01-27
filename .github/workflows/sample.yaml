@@ -19,6 +19,9 @@
           
           - name: print current directory
             run: pwd
+        
+          - name: "List files in current repository"
+            run: ls
    
           - name: "setup node js"
             uses: actions/setup-node@v4
@@ -27,3 +30,9 @@
          
           - name: "checkout version"
             run: node --version
+
+          - name: "clone repository"
+            uses: actions/checkout@v3
+          
+          - name: "List files in current repository"
+            run: ls
