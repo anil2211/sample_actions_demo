@@ -2,7 +2,14 @@
     name: "sample pipeline/workflows"
     on:
       push:
-        branches: -main -master
+        branches: 
+            - main 
+            - master
+      workflow_dispatch:
+      pull_request:
+        branches:
+            - master
+
     jobs:
       sampleJob:
         runs-on: ubuntu-latest
