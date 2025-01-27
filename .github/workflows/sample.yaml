@@ -1,5 +1,5 @@
 ---
-    name: "sample pipeline"
+    name: "sample pipeline/workflow"
     on:
       push:
         branches: -main -master
